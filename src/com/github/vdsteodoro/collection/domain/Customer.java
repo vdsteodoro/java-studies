@@ -12,6 +12,10 @@ public class Customer {
         this.id = ThreadLocalRandom.current().nextLong(0, 100_000);
     }
 
+    public int compareTo(Customer o){
+        return this.name.compareTo(o.name);
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
