@@ -1,7 +1,6 @@
 package com.github.vdsteodoro.utils.io;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class BufferedReaderTest {
     public static void main(String[] args) {

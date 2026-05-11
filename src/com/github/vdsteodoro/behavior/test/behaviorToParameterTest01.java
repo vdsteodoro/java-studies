@@ -22,13 +22,14 @@ public class behaviorToParameterTest01 {
                 return funkoPop.getFranchise().equals("The Office");
             }
         });
-        for (FunkoPop fp : filterChars){
+
+        for (FunkoPop fp : filterChars) {
             System.out.println(fp);
         }
 
         List<FunkoPop> filterWithLambda = filter(funkoPops, fp -> fp.getFranchise().equals("Harry Potter"));
 
-        for (FunkoPop fp : filterWithLambda){
+        for (FunkoPop fp : filterWithLambda) {
             System.out.println(fp);
         }
 
